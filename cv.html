@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Alejandro Vega</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cv.css" />
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <div class="avatar-wrap">
+          <div class="avatar">AV</div>
+          <div class="status-dot"></div>
+        </div>
+        <h1 class="name">Alejandro<br><em>Vega</em></h1>
+        <p class="role">Desarrollador Web Full-Stack</p>
+      </div>
+
+      <nav class="contact-block">
+        <h3 class="section-label">Contacto</h3>
+        <ul>
+          <li><span class="icon">✉</span> alejandro@vegadev.com</li>
+          <li><span class="icon">☎</span> +54 11 4523-7890</li>
+          <li><span class="icon">⌂</span> Buenos Aires, AR</li>
+          <li><span class="icon">⬡</span> github.com/avegadev</li>
+          <li><span class="icon">⬡</span> linkedin.com/in/avegadev</li>
+        </ul>
+      </nav>
+
+      <div class="skills-block">
+        <h3 class="section-label">Stack Principal</h3>
+        <div class="skill-pills">
+          <span>React</span><span>TypeScript</span><span>Node.js</span>
+          <span>Next.js</span><span>PostgreSQL</span><span>Docker</span>
+          <span>AWS</span><span>GraphQL</span><span>Git</span>
+          <span>Redis</span><span>Tailwind</span><span>Prisma</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="section-label">Idiomas</h3>
+        <div class="lang-list">
+          <div class="lang-item">
+            <span>Español</span>
+            <div class="lang-bar"><div style="width:100%"></div></div>
+          </div>
+          <div class="lang-item">
+            <span>Inglés</span>
+            <div class="lang-bar"><div style="width:85%"></div></div>
+          </div>
+          <div class="lang-item">
+            <span>Portugués</span>
+            <div class="lang-bar"><div style="width:40%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="section-label">Educación</h3>
+        <div class="edu-item">
+          <strong>Lic. en Sistemas</strong>
+          <span>UBA — 2014–2019</span>
+        </div>
+        <div class="edu-item">
+          <strong>AWS Solutions Architect</strong>
+          <span>Amazon — 2022</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+      <section class="intro-section">
+        <p class="intro-text">
+          Desarrollador full-stack con <strong>8+ años de experiencia</strong> construyendo productos web escalables. Especializado en arquitecturas React/Node con foco en rendimiento, DX y entregas de alto impacto. Apasionado por el código limpio y los sistemas bien diseñados.
+        </p>
+        <div class="divider"></div>
+      </section>
+
+      <!-- EXPERIENCIA -->
+      <section class="cv-section">
+        <h2 class="section-title"><span>01</span> Experiencia</h2>
+
+        <article class="job">
+          <div class="job-header">
+            <div>
+              <h3>Senior Frontend Engineer</h3>
+              <p class="company">Mercado Libre — Buenos Aires</p>
+            </div>
+            <div class="period">2021 — presente</div>
+          </div>
+          <ul class="job-bullets">
+            <li>Lideré la migración de una SPA legacy (AngularJS) a React 18 + TypeScript, reduciendo el bundle en un 42%.</li>
+            <li>Desarrollé un design system interno adoptado por 12 squads con más de 80 componentes accesibles (WCAG 2.1 AA).</li>
+            <li>Implementé estrategia de micro-frontends con Module Federation, mejorando el time-to-deploy en un 60%.</li>
+            <li>Mentoré a 4 desarrolladores Jr/Ssr y lideré revisiones de código semanales.</li>
+          </ul>
+          <div class="job-tags">
+            <span>React</span><span>TypeScript</span><span>Webpack 5</span><span>Jest</span><span>CI/CD</span>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-header">
+            <div>
+              <h3>Full-Stack Developer</h3>
+              <p class="company">Nuvemshop — Remoto</p>
+            </div>
+            <div class="period">2019 — 2021</div>
+          </div>
+          <ul class="job-bullets">
+            <li>Construí APIs REST y GraphQL en Node.js/Express consumidas por más de 90.000 tiendas activas.</li>
+            <li>Diseñé esquemas PostgreSQL y estrategias de indexación que redujeron queries críticas en 3×.</li>
+            <li>Integré pasarelas de pago (Stripe, MercadoPago) con manejo robusto de webhooks y reintentos.</li>
+          </ul>
+          <div class="job-tags">
+            <span>Node.js</span><span>GraphQL</span><span>PostgreSQL</span><span>Redis</span>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-header">
+            <div>
+              <h3>Web Developer</h3>
+              <p class="company">Agencia Kronos Digital — CABA</p>
+            </div>
+            <div class="period">2016 — 2019</div>
+          </div>
+          <ul class="job-bullets">
+            <li>Desarrollé más de 30 sitios y e-commerces en WordPress, Vue.js y Shopify para clientes locales e internacionales.</li>
+            <li>Optimicé Core Web Vitals en proyectos clave, logrando puntajes Lighthouse > 90 en todos los clientes.</li>
+          </ul>
+          <div class="job-tags">
+            <span>Vue.js</span><span>PHP</span><span>MySQL</span><span>Shopify</span>
+          </div>
+        </article>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section class="cv-section">
+        <h2 class="section-title"><span>02</span> Proyectos Destacados</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-icon">⬡</div>
+            <h4>OpenMetrics Dashboard</h4>
+            <p>Plataforma open-source para visualización de métricas en tiempo real. +2.4k stars en GitHub.</p>
+            <div class="job-tags"><span>Next.js</span><span>D3.js</span><span>WebSockets</span></div>
+          </div>
+          <div class="project-card">
+            <div class="project-icon">⬡</div>
+            <h4>Forma UI Kit</h4>
+            <p>Librería de componentes React accesibles con 80+ componentes y tema oscuro/claro automático.</p>
+            <div class="job-tags"><span>React</span><span>Radix</span><span>Storybook</span></div>
+          </div>
+          <div class="project-card">
+            <div class="project-icon">⬡</div>
+            <h4>Shortify API</h4>
+            <p>Servicio de acortamiento de URLs con analíticas avanzadas, soporte multi-tenant y rate limiting.</p>
+            <div class="job-tags"><span>Node.js</span><span>Redis</span><span>Docker</span></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>
